@@ -11,7 +11,6 @@ import UIKit
 
 class GitViewController: UIViewController {
 
-    @IBOutlet weak var tab1: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         

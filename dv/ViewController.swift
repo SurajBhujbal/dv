@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
+    @IBOutlet weak var tsbl1: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+        tsbl1.delegate = self
+        tsbl1.dataSource = self
+   }
     
     let arr = ["a","b","c","d","e","f","g","h"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,7 +24,7 @@ class ViewController: UIViewController {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell1", for: indexPath) as? TableViewCell1
-        cell?.lbl1.text = arr[indexPath.row]
+        cell?.textLabel?.text = arr[indexPath.row]
         return cell!
     }
 
