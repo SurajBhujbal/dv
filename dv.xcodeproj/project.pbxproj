@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1892E2922199831600A9684B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892E2912199831600A9684B /* ViewController.swift */; };
 		6F5CA52421997F8D00C85229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CA52321997F8D00C85229 /* AppDelegate.swift */; };
 		6F5CA52621997F8D00C85229 /* GitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CA52521997F8D00C85229 /* GitViewController.swift */; };
 		6F5CA52921997F8D00C85229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5CA52721997F8D00C85229 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1892E2912199831600A9684B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F5CA52021997F8D00C85229 /* dv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5CA52321997F8D00C85229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F5CA52521997F8D00C85229 /* GitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				6F5CA52C21997F8E00C85229 /* LaunchScreen.storyboard */,
 				6F5CA52F21997F8E00C85229 /* Info.plist */,
 				6F5CA5352199812E00C85229 /* TableViewCell1.swift */,
+				1892E2912199831600A9684B /* ViewController.swift */,
 			);
 			path = dv;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F5CA5362199812E00C85229 /* TableViewCell1.swift in Sources */,
-				6F5CA52621997F8D00C85229 /* ViewController.swift in Sources */,
+				6F5CA52621997F8D00C85229 /* GitViewController.swift in Sources */,
+				1892E2922199831600A9684B /* ViewController.swift in Sources */,
 				6F5CA52421997F8D00C85229 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
