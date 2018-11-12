@@ -9,7 +9,7 @@
 // our new gitHub repository... 
 import UIKit
 
-class ViewController: UIViewController {
+class GitViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
